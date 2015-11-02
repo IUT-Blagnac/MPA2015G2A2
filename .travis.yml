@@ -27,7 +27,7 @@ script:
   - ls -alF
   - cd sprint_5
   - echo Compilation des fichiers java
-  - javac -Xlint:unchecked -cp .;./json-simple-1.1.1.jar;./src -d %BINDIR% @files.txt
+  - javac -Xlint:unchecked -cp .;./json-simple-1.1.1.jar;./src -d /bin @files.txt
   - echo Création de OPTIweb
   - cd bin
   - java main.Main
