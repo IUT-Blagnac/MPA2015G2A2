@@ -47,8 +47,8 @@ script:
   - casperjs test casperSujets.js
   - echo compilation de la documentation
   - cd ..
-  - python asciidoc-8.6.9/asciidoc.py -a source-highlighter=pygments -a iconsdir=../asciidoc-8.6.9/images/icons -o OPTIweb/srcdoc/docUtilisateur.html -a toc OPTIweb/srcdoc/docUtilisateur.txt
-  - python asciidoc-8.6.9/asciidoc.py -a source-highlighter=pygments -a iconsdir=../asciidoc-8.6.9/images/icons -o OPTIweb/srcdoc/docTechnique.html -a toc OPTIweb/srcdoc/docTechnique.txt
+  - python asciidoc-8.6.7/asciidoc.py -a source-highlighter=pygments -a iconsdir=../asciidoc-8.6.7/images/icons -o OPTIweb/srcdoc/docUtilisateur.html -a toc OPTIweb/srcdoc/docUtilisateur.txt
+  - python asciidoc-8.6.7/asciidoc.py -a source-highlighter=pygments -a iconsdir=../asciidoc-8.6.7/images/icons -o OPTIweb/srcdoc/docTechnique.html -a toc OPTIweb/srcdoc/docTechnique.txt
   - java -jar ../plantuml.jar -Tpng -o srcdoc/images srcdoc/diag0.puml
   - python ../asciidoc-8.6.7/asciidoc.py -a data-uri -o srcdoc/presentationFinale.html srcdoc/presentationFinale.txt
   - ls -alF srcdoc
