@@ -1,7 +1,7 @@
 # whitelist
 branches:
   only:
-    - master 
+    - master
 
 before_install:
   - wget http://algec.iut-blagnac.fr/~jmi/MPA/src/junit.jar
