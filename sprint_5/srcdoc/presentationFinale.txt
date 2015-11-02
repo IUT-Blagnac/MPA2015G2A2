@@ -1,6 +1,6 @@
-= MPA : Présentation finale de recette MPAstaff
-:Author:  Groupe2A2
-:mail: groupe2a2@no-reply.fr
+= MPA : Présentation finale de recette
+:Author: Groupe2A2
+:email: groupe2a2@no-reply.fr
 :lang: fr
 :slideshowlocation: Your computer
 :copyright: {date={localdate}}, {slideshowlocation} *** {author} *** Powered by AsciiDoc and W3C Slidy &#169; 
