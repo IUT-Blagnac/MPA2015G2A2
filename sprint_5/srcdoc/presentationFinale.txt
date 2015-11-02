@@ -34,3 +34,45 @@ include::../src/HelloMonde.java[]
 
 image:./images/sieste.png[]
 
+Bilan des coûts du projet
+-------------------------
+
+Respect des charges: 67.30 heures de conception et développement.
+Respect des délais : début du projet semaine 37 et fin de projet semaine 45.
+Respect des coûts : aucun coût engagé.
+
+
+
+Bilan humain
+------------
+
+Ce projet fut extrêmement intéressant pour plusieurs raisons : premièrement il s’est déroulé sur une longue période 
+(allant de la phase d’élaboration jusqu’à la recette) et nous a donc permis de découvrir les enjeux liées à la 
+communication au sein de l’équipe et avec un client.
+
+.Communication avec les clients
+
+--
+Un des points qui a été délicat à gérer a été le nombre important d’itérations. 
+Ceci a pour avantage d’avoir un retour plus fréquent de la part du client. 
+En effet, faire de nombreuses itérations implique de préparer les revues et toutes les documentations nécessaires 
+dans des temps impartis.
+--
+
+.Communication au sein de l’équipe
+
+--
+Nous avons réalisé à quel point la communication est importante sur un projet, en particulier lorsque le 
+développement est réparti entre plusieurs personnes qui travaillent en des endroits différents. 
+La communication par redmine, régulière, nous a semblé très satisfaisante de ce point de vue.
+--
+
+Bilan global du projet
+----------------------
+
+Ce projet a été pour nous une occasion unique de mettre en œuvre un grand nombre de méthodes de gestion de projets, méthode de 
+développement Java(avec le modèle MVC) apprises en cours. Nous avons également pu apprécier à 
+quel point la rigueur et la concision sont importantes, notamment lors de la rédaction de documents.
+L’ensemble des membres du projet estime, cependant, que la charge de travail était relativement 
+conséquente du fait de la taille du projet et de la difficultée de la maîtrise des technologies utilisées.
+
