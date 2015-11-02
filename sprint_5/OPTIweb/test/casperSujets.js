@@ -1,12 +1,12 @@
-// run with :
+﻿// run with :
 // casperjs test casperSujets.js [--capture=true] [--dump=true]
 
-var CAPTURE = false ;
-var REP_CAPTURE = "captures/" ;
+var CAPTURE = true ;
+var REP_CAPTURE = "../srcdoc/captures/" ;
 var DUMP = false ;
 var REQUIRE = false ;
 var RESOLUTION = "";
-var APP_URL = 'file:///X:/ou/vous/voulez/OPTIweb/test/OPTIweb.html' ;
+var APP_URL = '../../bin/OPTIweb.html' ;
 var APP_VERSION = '0.1' ;
 
 // Test data ////////////////////////////////////
@@ -26,7 +26,7 @@ var SUJETS=[
 ["RegExp","Application pédagogique d'apprentissage des expressions régulières par l'expérience"],
 ["SimulMI","Développement de simulateur"],
 ["SoftVolley","SoftVolley : explication de stratégies de jeu au Volley-ball"],
-["SWAML",'Site web association "Marie Louise"']
+["SWAML",'Site web association \'Marie Louise\'']
 ] ;
 
 // Casper ////////////////////////////////////
