@@ -7,14 +7,27 @@
 :duration: 30
 :incremental: 1
 
+Bilan fonctionnel
+----------------
+
+Le projet ne nécessitant pas de financement, le passif sera les heures de travail de l’équipe quant à l'actif,
+ il s'agira des heures totales nécessaires à la réalisation des différentes taches du projet.
+
+Passif 67h30min
+Actif 83-85h
+
+Fond de roulement : - 17h30min
+Le fond de roulement étant négatif, cela signifie que nous avons manqué de temps
+pour finaliser toutes les taches. Afin de mener à bien ce projet, il nous aurait fallu
+des délais de livraison supplémentaires (ce qui aurait augmenté notre capital passif)
+ou une aide externe (ce qui aurait aussi augmenter notre capital passif)
+
 Bilan des coûts du projet
 -------------------------
 
 Respect des charges: 67.30 heures de conception et développement.
 Respect des délais : début du projet semaine 37 et fin de projet semaine 45.
 Respect des coûts : aucun coût engagé.
-
-
 
 Bilan humain
 ------------
@@ -48,4 +61,3 @@ développement Java(avec le modèle MVC) apprises en cours. Nous avons égalemen
 quel point la rigueur et la concision sont importantes, notamment lors de la rédaction de documents.
 L’ensemble des membres du projet estime, cependant, que la charge de travail était relativement 
 conséquente du fait de la taille du projet et de la difficultée de la maîtrise des technologies utilisées.
-
