@@ -19,7 +19,7 @@ public class casse {
 
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(
 					"../OPTIweb/test/projets2014_2015.csv"));
 			// Tant que le fichier en lecture contient de l'information,
@@ -46,7 +46,7 @@ public class casse {
 
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(
 					"../OPTIweb/test/projets2014_2015.csv"));
 			// Tant que le fichier en lecture contient de l'information,
@@ -73,7 +73,7 @@ public class casse {
 
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(
 					"../OPTIweb/test/sujets2014_2015.csv"));
 			// Tant que le fichier en lecture contient de l'information,
@@ -101,7 +101,7 @@ public class casse {
 
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(
 					"../OPTIweb/test/sujets2014_2015.csv"));
 			// Tant que le fichier en lecture contient de l'information,
@@ -129,7 +129,7 @@ public class casse {
 
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(
 					"../OPTIweb/test/intervenants2014_2015.csv"));
 			// Tant que le fichier en lecture contient de l'information,
@@ -157,7 +157,7 @@ public class casse {
 
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(
 					"../OPTIweb/test/intervenants2014_2015.csv"));
 			// Tant que le fichier en lecture contient de l'information,
@@ -185,7 +185,7 @@ public class casse {
 
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(
 					"../OPTIweb/test/etudiants2014_2015.csv"));
 			// Tant que le fichier en lecture contient de l'information,
@@ -212,7 +212,7 @@ public class casse {
 
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(
 					"../OPTIweb/test/projets2014_2015.csv"));
 			// Tant que le fichier en lecture contient de l'information,
@@ -235,7 +235,7 @@ public class casse {
 	}
 
 	/**
-	 * Méthode permettant de lire un fichier fourni en paramètre.
+	 * MÃ©thode permettant de lire un fichier fourni en paramÃ¨tre.
 	 *
 	 * @param nomFich
 	 * @return String[]
@@ -247,7 +247,7 @@ public class casse {
 		ArrayList<String[]> alsPremLigne = new ArrayList<String[]>();
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(nomFich));
 			// Tant que le fichier en lecture contient de l'information,
 			// lecture du contenu dans un System.out.println
@@ -283,7 +283,7 @@ public class casse {
 		ArrayList<String[]> alsPremLigne = new ArrayList<String[]>();
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(nomFich));
 			// Tant que le fichier en lecture contient de l'information,
 			// lecture du contenu dans un System.out.println
@@ -319,7 +319,7 @@ public class casse {
 		String ligne;
 		Etudia etu;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(nomFich));
 			// Tant que le fichier en lecture contient de l'information,
 			// lecture du contenu dans un System.out.println
@@ -374,7 +374,7 @@ public class casse {
 		ArrayList<String[]> alsPremLigne = new ArrayList<String[]>();
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(nomFich));
 			// Tant que le fichier en lecture contient de l'information,
 			// lecture du contenu dans un System.out.println
@@ -411,8 +411,8 @@ public class casse {
 	}
 
 	/**
-	 * Methode prenant en paramètre le nom de fichier à écrire, et un tableau de
-	 * String à écrire dans le fichier fourni en 1er paramètre.
+	 * Methode prenant en paramÃ¨tre le nom de fichier Ã  Ã©crire, et un tableau de
+	 * String Ã  Ã©crire dans le fichier fourni en 1er paramÃ¨tre.
 	 * 
 	 * @param nomFichier
 	 * @param ligneFichier
@@ -496,7 +496,7 @@ public class casse {
 
 			output.close();
 			// et on le ferme
-			System.out.println("fichier crÃ©Ã©");
+			System.out.println("fichier crÃƒÂ©ÃƒÂ©");
 		} catch (IOException ioe) {
 			System.out.print("Erreur : ");
 			ioe.printStackTrace();
