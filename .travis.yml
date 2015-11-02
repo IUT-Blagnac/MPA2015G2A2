@@ -28,7 +28,7 @@ script:
   - cd sprint_5
   - echo Compilation des fichiers java
   - chmod 777 ./json-simple-1.1.1.jar
-  - javac -Xlint:unchecked -cp ./json-simple-1.1.1.jar -d ./bin/ @files.txt
+  - javac -classpath "./;./json-simple-1.1.1.jar;./src" -d ./bin/ @files.txt
   - echo Création de OPTIweb
   - cd ./bin/ 
   - java -cp ".;../json-simple-1.1.1.jar" main.Main OPTIweb.conf
