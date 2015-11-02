@@ -30,7 +30,9 @@ script:
   - chmod 777 ./json-simple-1.1.1.jar
   - javac -Xlint:unchecked -cp ./json-simple-1.1.1.jar -d ./bin/ @files.txt
   - echo Création de OPTIweb
-  - java -cp ./json-simple-1.1.1.jar bin/main.Main OPTIweb.conf
+  - cd ./bin/
+  - java -cp ../json-simple-1.1.1.jar main.Main OPTIweb.conf
+  - cd ..
   - echo Lancement des Tests
   - javac -cp .:./bin -d ./bin ./src/HelloMonde.java
   - javac -cp .:./bin:../junit.jar -d ./bin ./src/HelloMondeTest.java
