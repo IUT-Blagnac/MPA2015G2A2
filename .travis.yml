@@ -42,7 +42,7 @@ script:
   - java -cp .:../../junit.jar HelloMondeTest
   - cd ../OPTIweb/test
   - cp OPTIwebprof.html /tmp/OPTIweb.html
-  - casperjs test casperAccueil.git js
+  - casperjs test casperAccueil.js
   - casperjs test casperCredits.js
   - casperjs test casperdemo1.js
   - casperjs test casperEtudiants.js
