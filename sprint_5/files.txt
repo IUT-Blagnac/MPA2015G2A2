@@ -10,16 +10,12 @@
 ./src/main/Main.java
 ./src/main/MainFenetre.java
 
-./src/modele/Encadrer.java
 ./src/modele/Etudiant.java
 ./src/modele/Groupe.java
 ./src/modele/Intervenant.java
 ./src/modele/InvalidException.java
-./src/modele/ListEtudiant.java
-./src/modele/ListSujet.java
 ./src/modele/NotFoundException.java
 ./src/modele/Projet.java
-./src/modele/Role.java
 ./src/modele/Sujet.java
 ./src/modele/Voeux.java
 
