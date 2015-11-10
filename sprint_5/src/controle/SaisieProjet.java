@@ -12,7 +12,7 @@ public class SaisieProjet {
 	private panneauProjet panneauP;
 
 	/**
-	 * Créateur du contrôleur.
+	 * CrÃ©ateur du contrÃ´leur.
 	 * 
 	 * @param pProjet
 	 * @param pFenetreP
@@ -24,7 +24,7 @@ public class SaisieProjet {
 
 	/**
 	 * Fonction public SaisieProjet() qui appele la classe panneauProjet et qui
-	 * permet d'avoir accès aux arguments de la classe Projet
+	 * permet d'avoir accÃ¨s aux arguments de la classe Projet
 	 * 
 	 * @return panneauProjet
 	 */

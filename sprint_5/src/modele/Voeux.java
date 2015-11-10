@@ -1,9 +1,9 @@
 package modele;
 
 /**
- * objet Voeux qui définit tous les attributs d'un groupe
+ * objet Voeux qui dÃ©finit tous les attributs d'un groupe
  * 
- * @author Cédric LESPAGNOL
+ * @author CÃ©dric LESPAGNOL
  *
  */
 public class Voeux {

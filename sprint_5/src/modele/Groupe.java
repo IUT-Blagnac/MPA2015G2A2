@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 /**
- * objet Groupe qui définit tous les attributs d'un groupe
+ * objet Groupe qui dÃ©finit tous les attributs d'un groupe
  * 
- * @author Cédric LESPAGNOL
+ * @author CÃ©dric LESPAGNOL
  *
  */
 public class Groupe {

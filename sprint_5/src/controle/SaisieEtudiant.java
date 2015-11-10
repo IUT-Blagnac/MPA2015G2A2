@@ -13,7 +13,7 @@ public class SaisieEtudiant {
 	private panneauEtudiant panneauE;
 
 	/**
-	 * Créateur du contrôleur.
+	 * CrÃ©ateur du contrÃ´leur.
 	 * 
 	 * @param pEtudiant
 	 * @param pFenetreP
@@ -25,7 +25,7 @@ public class SaisieEtudiant {
 
 	/**
 	 * Fonction publique SaisieEtu() qui appelle la classe panneauEtudiant et
-	 * qui permet d'avoir accès aux arguments de la classe Etudiant
+	 * qui permet d'avoir accÃ¨s aux arguments de la classe Etudiant
 	 * 
 	 * @return panneauEtudiant
 	 */
@@ -42,8 +42,8 @@ public class SaisieEtudiant {
 
 	/**
 	 * Fonction publique implementationEtu() qui prend tout ce que retourne le
-	 * panneauEtudiant pour enregistrer un étudiant et supprimer le panneau des
-	 * étudiants
+	 * panneauEtudiant pour enregistrer un Ã©tudiant et supprimer le panneau des
+	 * Ã©tudiants
 	 * 
 	 * @param a
 	 * @param b

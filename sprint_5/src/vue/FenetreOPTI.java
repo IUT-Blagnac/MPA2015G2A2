@@ -19,10 +19,10 @@ import controle.*;
 import modele.*;
 
 /**
- * Classe FenetreOPTI qui génère l'interface graphique
+ * Classe FenetreOPTI qui gÃ©nÃ¨re l'interface graphique
  * 
  * @author Alexandre GALLO
- * @author Cédric LESPAGNOL
+ * @author CÃ©dric LESPAGNOL
  */
 public class FenetreOPTI extends JFrame {
 	private static final long serialVersionUID = 1L;
@@ -49,7 +49,7 @@ public class FenetreOPTI extends JFrame {
 	private FenetreOPTI fp;
 
 	/**
-	 * Constructeur sans paramètre qui crée une fenetre ayant comme titre "OPTI"
+	 * Constructeur sans paramÃ¨tre qui crÃ©e une fenetre ayant comme titre "OPTI"
 	 */
 	public FenetreOPTI() {
 
@@ -79,7 +79,7 @@ public class FenetreOPTI extends JFrame {
 	}
 
 	/**
-	 * Méthode privée qui retourne le panneau (JPanel) de la fenetre.
+	 * MÃ©thode privÃ©e qui retourne le panneau (JPanel) de la fenetre.
 	 * 
 	 * @return JPanel
 	 */
@@ -96,7 +96,7 @@ public class FenetreOPTI extends JFrame {
 	}
 
 	/**
-	 * Méthode privée qui crée le JMenuBar qui donne le menu
+	 * MÃ©thode privÃ©e qui crÃ©e le JMenuBar qui donne le menu
 	 * 
 	 * @return JMenuBar
 	 */
@@ -159,8 +159,8 @@ public class FenetreOPTI extends JFrame {
 				} else {
 					JDialog fenetre = new JDialog();
 					JLabel text = new JLabel(
-							"Impossible de créer un sujet si vous modifiez quelque chose");
-					fenetre.setTitle("Création");
+							"Impossible de crÃ©er un sujet si vous modifiez quelque chose");
+					fenetre.setTitle("CrÃ©ation");
 					fenetre.add(text);
 					fenetre.pack();
 					fenetre.setLocationRelativeTo(null);
@@ -277,8 +277,8 @@ public class FenetreOPTI extends JFrame {
 				} else {
 					JDialog fenetre = new JDialog();
 					JLabel text = new JLabel(
-							"Impossible de créer un étudiant si vous modifiez quelque chose");
-					fenetre.setTitle("Création");
+							"Impossible de crÃ©er un Ã©tudiant si vous modifiez quelque chose");
+					fenetre.setTitle("CrÃ©ation");
 					fenetre.add(text);
 					fenetre.pack();
 					fenetre.setLocationRelativeTo(null);
@@ -377,8 +377,8 @@ public class FenetreOPTI extends JFrame {
 				} else {
 					JDialog fenetre = new JDialog();
 					JLabel text = new JLabel(
-							"Impossible de créer un intervenant si vous modifiez quelque chose");
-					fenetre.setTitle("Création");
+							"Impossible de crÃ©er un intervenant si vous modifiez quelque chose");
+					fenetre.setTitle("CrÃ©ation");
 					fenetre.add(text);
 					fenetre.pack();
 					fenetre.setLocationRelativeTo(null);
@@ -475,8 +475,8 @@ public class FenetreOPTI extends JFrame {
 				} else {
 					JDialog fenetre = new JDialog();
 					JLabel text = new JLabel(
-							"Impossible de créer un projet si vous modifiez quelque chose");
-					fenetre.setTitle("Création");
+							"Impossible de crÃ©er un projet si vous modifiez quelque chose");
+					fenetre.setTitle("CrÃ©ation");
 					fenetre.add(text);
 					fenetre.pack();
 					fenetre.setLocationRelativeTo(null);
@@ -592,7 +592,7 @@ public class FenetreOPTI extends JFrame {
 	}
 
 	/**
-	 * Méthode privée qui crée le "Tree"
+	 * MÃ©thode privÃ©e qui crÃ©e le "Tree"
 	 * 
 	 * @return JScrollPane
 	 */
@@ -617,13 +617,13 @@ public class FenetreOPTI extends JFrame {
 	}
 
 	/**
-	 * Méthode privée qui crée la fenetre ayant pour titre "A propos"
+	 * MÃ©thode privÃ©e qui crÃ©e la fenetre ayant pour titre "A propos"
 	 */
 	private void APropos() {
 
 		JDialog fenetre = new JDialog(this, "A Propos");
 		JLabel text = new JLabel(
-				"<html><body>Groupe : 2A2<br/>Membres :<br/>    <ul><li>Loïc Lemonsu</li>    <li>Alexandre Gallo Gonzalez</li>   <li>Cédric Lespagnol</li>    <li>Baptiste Larre</li>    <li>Thibault Crubille</li>    <li>Denis Nguyen</li></ul><br/>Université Toulouse 2<br/><br/>IUT de Blagnac<br/><br/>DUT INFO S3/Module MPA<br/><br/>Projet OPTI</body></html>",
+				"<html><body>Groupe : 2A2<br/>Membres :<br/>    <ul><li>LoÃ¯c Lemonsu</li>    <li>Alexandre Gallo Gonzalez</li>   <li>CÃ©dric Lespagnol</li>    <li>Baptiste Larre</li>    <li>Thibault Crubille</li>    <li>Denis Nguyen</li></ul><br/>UniversitÃ© Toulouse 2<br/><br/>IUT de Blagnac<br/><br/>DUT INFO S3/Module MPA<br/><br/>Projet OPTI</body></html>",
 				JLabel.CENTER);
 		fenetre.add(text);
 		fenetre.setSize(300, 400);
@@ -634,7 +634,7 @@ public class FenetreOPTI extends JFrame {
 	}
 
 	/**
-	 * Méthode privée qui crée la fenetre JDialog pour séléctionner un sujet à
+	 * MÃ©thode privÃ©e qui crÃ©e la fenetre JDialog pour sÃ©lÃ©ctionner un sujet Ã 
 	 * modifier
 	 */
 	private void modifierSujet() {
@@ -705,7 +705,7 @@ public class FenetreOPTI extends JFrame {
 	}
 
 	/**
-	 * Méthode privée qui crée la fenetre JDialog pour séléctionner des sujets à
+	 * MÃ©thode privÃ©e qui crÃ©e la fenetre JDialog pour sÃ©lÃ©ctionner des sujets Ã 
 	 * supprimer
 	 */
 	private void SupprimerSujet() {
@@ -734,7 +734,7 @@ public class FenetreOPTI extends JFrame {
 				if (suppr == true) {
 					int confirmation = JOptionPane.showConfirmDialog(
 							new JFrame(),
-							"Voulez-vous vraiment supprimer ces éléments ?",
+							"Voulez-vous vraiment supprimer ces Ã©lÃ©ments ?",
 							"Supprimer ?", JOptionPane.YES_NO_OPTION,
 							JOptionPane.QUESTION_MESSAGE);
 					if (confirmation == JOptionPane.YES_OPTION) {
@@ -803,7 +803,7 @@ public class FenetreOPTI extends JFrame {
 				if (suppr == true) {
 					int confirmation = JOptionPane.showConfirmDialog(
 							new JFrame(),
-							"Voulez-vous vraiment supprimer ces éléments ?",
+							"Voulez-vous vraiment supprimer ces Ã©lÃ©ments ?",
 							"Supprimer ?", JOptionPane.YES_NO_OPTION,
 							JOptionPane.QUESTION_MESSAGE);
 					if (confirmation == JOptionPane.YES_OPTION) {
@@ -872,7 +872,7 @@ public class FenetreOPTI extends JFrame {
 				if (suppr == true) {
 					int confirmation = JOptionPane.showConfirmDialog(
 							new JFrame(),
-							"Voulez-vous vraiment supprimer ces éléments ?",
+							"Voulez-vous vraiment supprimer ces Ã©lÃ©ments ?",
 							"Supprimer ?", JOptionPane.YES_NO_OPTION,
 							JOptionPane.QUESTION_MESSAGE);
 					if (confirmation == JOptionPane.YES_OPTION) {
@@ -1008,7 +1008,7 @@ public class FenetreOPTI extends JFrame {
 				if (suppr == true) {
 					int confirmation = JOptionPane.showConfirmDialog(
 							new JFrame(),
-							"Voulez-vous vraiment supprimer ces éléments ?",
+							"Voulez-vous vraiment supprimer ces Ã©lÃ©ments ?",
 							"Supprimer ?", JOptionPane.YES_NO_OPTION,
 							JOptionPane.QUESTION_MESSAGE);
 					if (confirmation == JOptionPane.YES_OPTION) {
@@ -1151,7 +1151,7 @@ public class FenetreOPTI extends JFrame {
 	}
 
 	/**
-	 * Setter d'un sujet de l'arraylist particulier définie avec "k"
+	 * Setter d'un sujet de l'arraylist particulier dÃ©finie avec "k"
 	 * 
 	 * @param pSubject
 	 */

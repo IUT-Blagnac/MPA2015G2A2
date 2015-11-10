@@ -19,7 +19,7 @@ import modele.Sujet;
 import controle.*;
 
 /**
- * Clasee Importer qui correspond ‡ la fenetre afficher lors de la creation du
+ * Clasee Importer qui correspond √† la fenetre afficher lors de la creation du
  * html par import.
  * 
  * @author Alexandre
@@ -28,9 +28,9 @@ import controle.*;
 public class ImporterSujet {
 
 	/**
-	 * Constructeur Non ParamÈtrÈ.<br>
+	 * Constructeur Non Param√©tr√©.<br>
 	 * <br>
-	 * Creer la fenetre correspondant ‡ l'import.
+	 * Creer la fenetre correspondant √† l'import.
 	 * 
 	 * @param pFOPTI
 	 */
@@ -93,7 +93,7 @@ public class ImporterSujet {
 						JLabel text = new JLabel(
 								"Impossible d'importer cette liste, l'id "
 										+ verifId(alTemp, pFOPTI)
-										+ " est dÈj‡ utilisÈ");
+										+ " est d√©j√† utilis√©");
 						f.setTitle("Erreur");
 						f.add(text);
 						f.pack();

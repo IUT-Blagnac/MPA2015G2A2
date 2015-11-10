@@ -1,7 +1,7 @@
 package modele;
 
 /**
- * classe InvalidException qui hérite de Exception qui permet de lever une
+ * classe InvalidException qui hÃ©rite de Exception qui permet de lever une
  * exception
  * 
  * @author CRUBILLE-NGUYEN

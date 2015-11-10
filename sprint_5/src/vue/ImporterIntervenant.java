@@ -19,19 +19,19 @@ import modele.*;
 import controle.CsvRW;
 
 /**
- * Classe Importer qui correspond ‡ la fenetre afficher lors de la creation du
+ * Classe Importer qui correspond √† la fenetre afficher lors de la creation du
  * html par import.
  * 
- * @author CÈdric
+ * @author C√©dric
  *
  */
 
 public class ImporterIntervenant {
 
 	/**
-	 * Constructeur Non ParamÈtrÈ.<br>
+	 * Constructeur Non Param√©tr√©.<br>
 	 * <br>
-	 * Creer la fenetre correspondant ‡ l'import.
+	 * Creer la fenetre correspondant √† l'import.
 	 * 
 	 * @param pFOPTI
 	 */
@@ -99,7 +99,7 @@ public class ImporterIntervenant {
 						JLabel text = new JLabel(
 								"Impossible d'importer cette liste, l'id "
 										+ verifId(alTemp, pFOPTI)
-										+ " est dÈj‡ utilisÈ");
+										+ " est d√©j√† utilis√©");
 						f.setTitle("Erreur");
 						f.add(text);
 						f.pack();

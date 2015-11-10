@@ -9,7 +9,7 @@ import javax.swing.filechooser.FileFilter;
 import controle.*;
 
 /**
- * Classe SauvegarderSujet qui permet d'extraire une liste d'étudiant pour creer
+ * Classe SauvegarderSujet qui permet d'extraire une liste d'Ã©tudiant pour creer
  * un fichier csv
  * 
  * @author Alexandre
@@ -21,7 +21,7 @@ public class SauvegarderIntervenant {
 	/**
 	 * Constructeur.<br>
 	 * <br>
-	 * Creer la fenetre correspondant à l'export.
+	 * Creer la fenetre correspondant Ã  l'export.
 	 * 
 	 * @param pFOPTI
 	 * 

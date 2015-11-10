@@ -14,7 +14,7 @@ public class SauvegarderEtudiant {
 	/**
 	 * Constructeur.<br>
 	 * <br>
-	 * Crée la fenetre correspondant à l'export.
+	 * CrÃ©e la fenetre correspondant Ã  l'export.
 	 * 
 	 * @param pFOPTI
 	 */

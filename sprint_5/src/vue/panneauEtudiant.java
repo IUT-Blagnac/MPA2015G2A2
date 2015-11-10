@@ -13,10 +13,10 @@ import javax.swing.JTextField;
 import controle.*;
 
 /**
- * Classe qui crée le panneau des saisies.
+ * Classe qui crÃ©e le panneau des saisies.
  * 
  * @author Alexandre GALLO
- * @author Cédric LESPAGNOL
+ * @author CÃ©dric LESPAGNOL
  */
 public class panneauEtudiant extends JPanel {
 
@@ -28,7 +28,7 @@ public class panneauEtudiant extends JPanel {
 	private JTextField prenomText;
 
 	/**
-	 * Constructeur par défaut du panneauSujet qui appelle l'autre constructeur
+	 * Constructeur par dÃ©faut du panneauSujet qui appelle l'autre constructeur
 	 * 
 	 * @param pSaisie
 	 */
@@ -38,7 +38,7 @@ public class panneauEtudiant extends JPanel {
 	}
 
 	/**
-	 * Constructeur qui implémente la classe et qui crée le panneau pour la
+	 * Constructeur qui implÃ©mente la classe et qui crÃ©e le panneau pour la
 	 * saisie d'un sujet.
 	 * 
 	 * @param pGroupe
