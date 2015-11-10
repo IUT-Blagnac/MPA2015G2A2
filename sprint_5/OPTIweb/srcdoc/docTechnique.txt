@@ -10,6 +10,12 @@ des projets tutorés gérés par OPTI.
 navigateurs et supports du moment (PC, tablettes, smartphones).
 *********************
 
+[WARNING]
+====
+Si vous avez besoin de la javadoc : elle est disponible dans le dossier JAVADOC
+====
+
+
 == Fiche projet - SPRINT 4
 
 [icon="../../images/UT2JJ128.png"]

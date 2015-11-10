@@ -174,7 +174,6 @@ Pour rechercher un étudiant particulier :
 
 . Saisir une chaine dans le champ de recherche
 +
-image:captures/searchFieldEtudiantLopez400x600.png[]
 
 [NOTE]
 .Pour Effacer la sélection
