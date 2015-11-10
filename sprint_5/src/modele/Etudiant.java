@@ -1,7 +1,7 @@
 package modele;
 
 /**
- * objet Etudiant qui définit tous les attributs d'un étudiant
+ * objet Etudiant qui dÃ©finit tous les attributs d'un Ã©tudiant
  * 
  * @author CRUBILLE-NGUYEN
  *

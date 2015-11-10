@@ -7,11 +7,11 @@ import modele.*;
 import vue.*;
 
 /**
- * Le contrôleur des saisies d'un sujet choisi qui est appelé lors de la
+ * Le contrÃ´leur des saisies d'un sujet choisi qui est appelÃ© lors de la
  * modification d'un sujet existant
  *
  * @author Alexandre GALLO
- * @author Cédric LESPAGNOL
+ * @author CÃ©dric LESPAGNOL
  */
 public class SaisieSujet {
 	private static Sujet subject;
@@ -19,7 +19,7 @@ public class SaisieSujet {
 	private panneauSujet panneauS;
 
 	/**
-	 * Créateur du contrôleur.
+	 * CrÃ©ateur du contrÃ´leur.
 	 * 
 	 * @param psubject
 	 * @param pFenetreP
@@ -31,7 +31,7 @@ public class SaisieSujet {
 
 	/**
 	 * Fonction publique SaisieSuje() qui appelle la classe panneauSujet et qui
-	 * permet d'avoir accès aux arguments de la classe Sujet
+	 * permet d'avoir accÃ¨s aux arguments de la classe Sujet
 	 * 
 	 * @return panneauSujet
 	 */

@@ -14,11 +14,11 @@ import javax.swing.JTextField;
 import controle.*;
 
 /**
- * Classe qui crÈe le panneau des saisies.
+ * Classe qui cr√©e le panneau des saisies.
  * 
  * 
  * @author Alexandre GALLO
- * @author CÈdric LESPAGNOL
+ * @author C√©dric LESPAGNOL
  */
 public class panneauSujet extends JPanel {
 
@@ -29,7 +29,7 @@ public class panneauSujet extends JPanel {
 	private JTextField titreText;
 
 	/**
-	 * Constructeur par dÈfaut du panneauSujet qui appelle l'autre constructeur
+	 * Constructeur par d√©faut du panneauSujet qui appelle l'autre constructeur
 	 * 
 	 * @param pSaisie
 	 * @param fP
@@ -39,7 +39,7 @@ public class panneauSujet extends JPanel {
 	}
 
 	/**
-	 * Constructeur qui implÈmente la classe et qui crÈe le panneau pour la
+	 * Constructeur qui impl√©mente la classe et qui cr√©e le panneau pour la
 	 * saisie d'un sujet.
 	 * 
 	 * @param pId
@@ -84,7 +84,7 @@ public class panneauSujet extends JPanel {
 								"" + fP.getSujets().get(i).getId())
 								&& !pId.getText().equals(fP.getK())) {
 							JDialog fenetre = new JDialog();
-							JLabel text = new JLabel("Cet ID est dÈj‡ utilisÈ");
+							JLabel text = new JLabel("Cet ID est d√©j√† utilis√©");
 							fenetre.setTitle("Modification");
 							fenetre.add(text);
 							fenetre.pack();

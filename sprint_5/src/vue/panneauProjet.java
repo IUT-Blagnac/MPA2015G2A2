@@ -13,7 +13,7 @@ import javax.swing.JTextField;
 import controle.*;
 
 /**
- * Class qui crée le panneau des saisies.
+ * Class qui crÃ©e le panneau des saisies.
  * 
  * @author Baptiste LARRE utilisation du code de panneauSujet
  */
@@ -28,7 +28,7 @@ public class panneauProjet extends JPanel {
 	private JTextField superviseurText;
 
 	/**
-	 * Constructeur par défaut du panneauProjet qui appelle l'autre constructeur
+	 * Constructeur par dÃ©faut du panneauProjet qui appelle l'autre constructeur
 	 * 
 	 * @param pSaisie
 	 */
@@ -38,7 +38,7 @@ public class panneauProjet extends JPanel {
 	}
 
 	/**
-	 * Constructeur qui implémente la class et qui créer le panneau pour la
+	 * Constructeur qui implÃ©mente la class et qui crÃ©er le panneau pour la
 	 * saisie d'un projet.
 	 * 
 	 * @param pId

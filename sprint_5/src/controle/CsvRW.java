@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 /**
- * Classe CsvRW qui permet de lire et d'écrire dans un fichier défini
+ * Classe CsvRW qui permet de lire et d'Ã©crire dans un fichier dÃ©fini
  * 
  * @author CRUBILLE-NGUYEN
  */
@@ -14,7 +14,7 @@ public class CsvRW {
 	}
 
 	/**
-	 * Méthode permettant de lire un fichier fourni en paramètre.
+	 * MÃ©thode permettant de lire un fichier fourni en paramÃ¨tre.
 	 *
 	 * @param nomFich
 	 * @return String[]
@@ -25,7 +25,7 @@ public class CsvRW {
 		ArrayList<String> als = new ArrayList<String>();
 		String ligne;
 		try {
-			// Ouvre le fichier source à la lecture
+			// Ouvre le fichier source Ã  la lecture
 			BufferedReader fichier = new BufferedReader(new FileReader(nomFich));
 			// Tant que le fichier en lecture contient de l'information,
 			// lecture du contenu dans un System.out.println
@@ -46,8 +46,8 @@ public class CsvRW {
 	}
 
 	/**
-	 * Methode prenant en paramètre le nom de fichier à écrire, et un tableau de
-	 * String à écrire dans le fichier fourni en 1er paramètre.
+	 * Methode prenant en paramÃ¨tre le nom de fichier Ã  Ã©crire, et un tableau de
+	 * String Ã  Ã©crire dans le fichier fourni en 1er paramÃ¨tre.
 	 * 
 	 * @param nomFichier
 	 * @param ligneFichier
@@ -61,9 +61,9 @@ public class CsvRW {
 			PrintWriter sortie = new PrintWriter(new FileWriter(nomFichier,
 					append));
 
-			// Tant que le tableau fourni en paramètre a une taille supérieur à
+			// Tant que le tableau fourni en paramÃ¨tre a une taille supÃ©rieur Ã 
 			// la valeur x,
-			// écriture du tableau dans le fichier.
+			// Ã©criture du tableau dans le fichier.
 			for (int x = 0; x < ligneFichier.length; x++) {
 				sortie.write(ligneFichier[x]);
 				if (!(x == (ligneFichier.length - 1))) {
@@ -73,7 +73,7 @@ public class CsvRW {
 			if (append) {
 				sortie.write("\n");
 			}
-			// flush force l'écriture des données.
+			// flush force l'Ã©criture des donnÃ©es.
 			sortie.flush();
 
 			// Fermeture du fichier.

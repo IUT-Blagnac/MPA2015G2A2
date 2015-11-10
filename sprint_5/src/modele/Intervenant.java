@@ -1,9 +1,9 @@
 package modele;
 
 /**
- * objet Intervenant qui définit tous les attributs d'un intervenant
+ * objet Intervenant qui dÃ©finit tous les attributs d'un intervenant
  * 
- * @author Cédric LESPAGNOL
+ * @author CÃ©dric LESPAGNOL
  * 
  */
 
