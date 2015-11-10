@@ -14,42 +14,48 @@ before_script:
   - export PATH=$PATH:$PWD/casperjs-1.0.3/bin/
 language: java
 script:
+
+  - echo Version utilise
+
   - java -version
   - javac -version
   - python -V
   - phantomjs -v
   - python asciidoc-8.6.7/asciidoc.py --version
-  - dot -V
-  - echo Hello from DUT INFO Blagnac
-  - ls -alF
   - casperjs --version
-  - echo Hello from DUT INFO Blagnac
-  - ls -alF
+  - dot -V
+  - ls -alFR
   - cd sprint_5
+
   - echo Compilation des fichiers java
+
   - chmod 777 ./json-simple-1.1.1.jar
   - javac -classpath ./:./json-simple-1.1.1.jar:./src -d ./bin/ @files.txt
+
   - echo Création de OPTIweb
-  - cd ./bin/ 
+
+  - cd ./bin/
   - java -cp .:../json-simple-1.1.1.jar main.Main OPTIweb.conf
   - cd ..
+
   - echo Lancement des Tests
-  - javac -cp .:./bin -d ./bin ./src/HelloMonde.java
-  - javac -cp .:./bin:../junit.jar -d ./bin ./src/HelloMondeTest.java
+
   - python ../asciidoc-8.6.7/asciidoc.py -a data-uri -o srcdoc/presentationFinale.html srcdoc/presentationFinale.txt
   - ls -alF srcdoc
   - cd bin
   - java -cp .:../../junit.jar HelloMondeTest
   - cd ../OPTIweb/test
   - cp OPTIwebprof.html /tmp/OPTIweb.html
-  - casperjs test casperAccueil.git js
+  - casperjs test casperAccueil.js
   - casperjs test casperCredits.js
   - casperjs test casperdemo1.js
   - casperjs test casperEtudiants.js
   - casperjs test casperIntervenants.js
   - casperjs test casperProjets.js
   - casperjs test casperSujets.js
+
   - echo compilation de la documentation
+
   - cd ../..
   - python ../asciidoc-8.6.7/asciidoc.py -a source-highlighter=pygments -a iconsdir=../asciidoc-8.6.7/images/icons -o OPTIweb/srcdoc/docUtilisateur.html -a toc OPTIweb/srcdoc/docUtilisateur.txt
   - python ../asciidoc-8.6.7/asciidoc.py -a source-highlighter=pygments -a iconsdir=../asciidoc-8.6.7/images/icons -o OPTIweb/srcdoc/docTechnique.html -a toc OPTIweb/srcdoc/docTechnique.txt
