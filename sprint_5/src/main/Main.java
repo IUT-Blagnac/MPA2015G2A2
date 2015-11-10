@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		casse.createJson(args[0]);
 		new OPTIweb(args[0]);
-
+		FenetreOPTI f = new FenetreOPTI();
 	}
 
 }
